@@ -16,7 +16,7 @@ end
     @pf = params["pf"]
     @c = params["c"]
 
-    erb :newteam
+    erb :team
   end
 
   get '/team' do
